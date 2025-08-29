@@ -1,6 +1,10 @@
 package net.lordofthetime.dumbadditions;
 
 import com.mojang.logging.LogUtils;
+import net.lordofthetime.dumbadditions.block.ModBlocks;
+import net.lordofthetime.dumbadditions.item.ModCreativeModeTabs;
+import net.lordofthetime.dumbadditions.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -26,7 +30,10 @@ public class DumbAdditions {
     public DumbAdditions(FMLJavaModLoadingContext context){
         IEventBus modEventBus = context.getModEventBus();
 
-        // Register the commonSetup method for modloading
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         // Register ourselves for server and other game events we are interested in
@@ -45,7 +52,9 @@ public class DumbAdditions {
 
 
     private void addCreative(BuildCreativeModeTabContentsEvent event){
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.MAGICAL_PARTICLE);
+        }
     }
 
 
