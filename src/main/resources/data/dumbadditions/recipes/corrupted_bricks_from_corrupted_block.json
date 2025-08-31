@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "mics",
+  "pattern":[
+    "## ",
+    "## ",
+    "   "
+  ],
+  "key": {
+    "#":{
+      "item": "dumbadditions:corrupted_block"
+    }
+  },
+  "result": {
+    "item" : "dumbadditions:corrupted_bricks",
+    "amount": 4
+  }
+}

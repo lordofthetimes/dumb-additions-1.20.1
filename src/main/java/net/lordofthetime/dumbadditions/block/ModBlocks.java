@@ -20,9 +20,22 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, DumbAdditions.MODID);
 
     public static final RegistryObject<Block> CORRUPTED_BLOCK =
-            registerBlock("corrupted_block",() -> new Block(BlockBehaviour.Properties.copy(Blocks.POWDER_SNOW).friction(0.8F)));
+            registerBlock("corrupted_block",() -> new Block(BlockBehaviour
+                    .Properties.copy(Blocks.POWDER_SNOW)
+                    .requiresCorrectToolForDrops().friction(0.8F)));
     public static final RegistryObject<Block> MAGICAL_BLOCK =
-            registerBlock("magical_block",() -> new Block(BlockBehaviour.Properties.copy(Blocks.POWDER_SNOW).friction(0.8F)));
+            registerBlock("magical_block",() -> new Block(BlockBehaviour
+                    .Properties.copy(Blocks.POWDER_SNOW)
+                    .requiresCorrectToolForDrops().friction(0.8F)));
+
+    public static final RegistryObject<Block> CORRUPTED_BRICKS =
+            registerBlock("corrupted_bricks",() -> new Block(BlockBehaviour
+                    .Properties.copy(Blocks.STONE_BRICKS)
+                    .requiresCorrectToolForDrops().friction(0.8F)));
+    public static final RegistryObject<Block> MAGICAL_BRICKS =
+            registerBlock("magical_bricks",() -> new Block(BlockBehaviour
+                    .Properties.copy(Blocks.STONE_BRICKS)
+                    .requiresCorrectToolForDrops().friction(0.8F)));
 
 
     private static<T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

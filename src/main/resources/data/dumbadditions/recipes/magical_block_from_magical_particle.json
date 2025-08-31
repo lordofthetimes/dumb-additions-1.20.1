@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "mics",
+  "pattern":[
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#":{
+      "item": "dumbadditions:magical_particle"
+    }
+  },
+  "result": {
+    "item" : "dumbadditions:magical_block"
+  }
+}

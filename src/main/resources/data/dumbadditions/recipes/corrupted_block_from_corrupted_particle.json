@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "mics",
+  "pattern":[
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#":{
+      "item": "dumbadditions:corrupted_particle"
+    }
+  },
+  "result": {
+    "item" : "dumbadditions:corrupted_block"
+  }
+}

@@ -2,6 +2,10 @@
   "item.dumbadditions.magical_particle": "Magical Particle",
   "item.dumbadditions.corrupted_particle": "Corrupted Particle",
 
+  "item.dumbadditions.block_purifier": "Block Purifier",
+
+  "block.dumbadditions.corrupted_bricks": "Corrupted Bricks",
+  "block.dumbadditions.magical_bricks": "Magical Bricks",
   "block.dumbadditions.corrupted_block": "Corrupted Block",
   "block.dumbadditions.magical_block": "Magical Block",
 
