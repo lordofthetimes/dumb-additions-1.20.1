@@ -1,6 +1,7 @@
 package net.lordofthetime.dumbadditions.block;
 
 import net.lordofthetime.dumbadditions.DumbAdditions;
+import net.lordofthetime.dumbadditions.block.custom.CorruptorBlock;
 import net.lordofthetime.dumbadditions.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -36,6 +37,9 @@ public class ModBlocks {
             registerBlock("magical_bricks",() -> new Block(BlockBehaviour
                     .Properties.copy(Blocks.STONE_BRICKS)
                     .requiresCorrectToolForDrops().friction(0.8F)));
+    public static final RegistryObject<Block> CORRUPTOR =
+            registerBlock("corruptor",() -> new CorruptorBlock(BlockBehaviour
+                    .Properties.copy(Blocks.REINFORCED_DEEPSLATE)));
 
 
     private static<T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
