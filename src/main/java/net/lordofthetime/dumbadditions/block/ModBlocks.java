@@ -15,11 +15,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.Objects;
 import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, DumbAdditions.MODID);
-
     public static final RegistryObject<Block> CORRUPTED_BLOCK =
             registerBlock("corrupted_block",() -> new Block(BlockBehaviour
                     .Properties.copy(Blocks.POWDER_SNOW)
@@ -40,6 +40,28 @@ public class ModBlocks {
     public static final RegistryObject<Block> CORRUPTOR =
             registerBlock("corruptor",() -> new CorruptorBlock(BlockBehaviour
                     .Properties.copy(Blocks.REINFORCED_DEEPSLATE)));
+
+
+    //add ores to ORES DefferedRegister
+//    public static final DeferredRegister<Block> ORES = DeferredRegister.create(ForgeRegistries.BLOCKS, DumbAdditions.MODID);
+
+    public static boolean  isItemBlock(String id){
+        for(RegistryObject<Block> block : BLOCKS.getEntries()){
+            if(Objects.equals(String.valueOf(block.getId()), id)){
+                return true;
+            }
+        }
+
+        //uncomment  when ORES is uncommented
+
+//        for(RegistryObject<Block> block : ORES.getEntries()){
+//            if(block.getId().toString()==id){
+//                return true;
+//            }
+//        }
+        return false;
+    }
+
 
 
     private static<T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
