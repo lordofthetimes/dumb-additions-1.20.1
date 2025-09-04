@@ -5,6 +5,11 @@
   "item.dumbadditions.block_purifier": "Block Purifier",
 
   "block.dumbadditions.corrupted_bricks": "Corrupted Bricks",
+  "block.dumbadditions.corrupted_brick_stairs": "Corrupted Brick Stairs",
+  "block.dumbadditions.corrupted_brick_wall": "Corrupted Brick Wall",
+  "block.dumbadditions.corrupted_brick_slab": "Corrupted Brick Slab",
+
+
   "block.dumbadditions.magical_bricks": "Magical Bricks",
   "block.dumbadditions.corrupted_block": "Corrupted Block",
   "block.dumbadditions.magical_block": "Magical Block",

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dumbadditions:block/magical_bricks",
+    "side": "dumbadditions:block/magical_bricks",
+    "top": "dumbadditions:block/magical_bricks"
+  }
+}

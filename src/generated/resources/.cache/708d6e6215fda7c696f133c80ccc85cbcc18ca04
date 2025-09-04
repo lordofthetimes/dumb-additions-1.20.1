@@ -1,4 +1,10 @@
-// 1.20.1	2025-09-02T23:27:35.347611765	Item Models: dumbadditions
+// 1.20.1	2025-09-04T20:43:54.630508127	Item Models: dumbadditions
 1bd20cf59743ee1d449c8e0b5a02efd83add4605 assets/dumbadditions/models/item/block_purifier.json
+f06955be8bc0c39eeab73b3a6bafe9f142a71eba assets/dumbadditions/models/item/corrupted_brick_slab.json
+e0fd9fe789dae4385a37475b362dd65c8fbdffdf assets/dumbadditions/models/item/corrupted_brick_stairs.json
+48dece98f546c89a2ac168f743b416be90fa729c assets/dumbadditions/models/item/corrupted_brick_wall.json
 2d367c380d07a5b5a51e39633b8b667c9fe2c861 assets/dumbadditions/models/item/corrupted_particle.json
+20fdaa03ffb4afc0dac586077c8df45ea315fd42 assets/dumbadditions/models/item/magical_brick_slab.json
+5f129dc5a360d8487a29e1a184c5ad919e1f1015 assets/dumbadditions/models/item/magical_brick_stairs.json
+9e9583a6451212863f7e138f5e3c8b7e775a50dc assets/dumbadditions/models/item/magical_brick_wall.json
 7c4711a737246f08e9c51677a1b4b780b7cfba68 assets/dumbadditions/models/item/magical_particle.json

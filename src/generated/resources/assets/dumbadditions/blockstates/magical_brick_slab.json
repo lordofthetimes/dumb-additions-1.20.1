@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dumbadditions:block/magical_brick_slab"
+    },
+    "type=double": {
+      "model": "dumbadditions:block/magical_bricks"
+    },
+    "type=top": {
+      "model": "dumbadditions:block/magical_brick_slab_top"
+    }
+  }
+}

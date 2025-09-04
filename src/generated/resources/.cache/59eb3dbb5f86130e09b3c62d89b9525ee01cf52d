@@ -1,6 +1,12 @@
-// 1.20.1	2025-09-02T23:27:35.347153347	Loot Tables
+// 1.20.1	2025-09-04T20:31:31.491634035	Loot Tables
 324351d8f7510273f7dccf963d986346d504399e data/dumbadditions/loot_tables/blocks/corrupted_block.json
+f41597ecbda93d002a7af3d95f3576d221688618 data/dumbadditions/loot_tables/blocks/corrupted_brick_slab.json
+4f25488a42634d695188c8c464d36e64f8be9486 data/dumbadditions/loot_tables/blocks/corrupted_brick_stairs.json
+1d67b8558af2ab2185775b263e102ba49a3ee25e data/dumbadditions/loot_tables/blocks/corrupted_brick_wall.json
 94d2ce2e1fe78e28d674f77a42274cd8849f524d data/dumbadditions/loot_tables/blocks/corrupted_bricks.json
 0651f220d9dada908cbad4c40ab69957ee22cd3b data/dumbadditions/loot_tables/blocks/corruptor.json
 d93a7853adc904176873a0904c3695e71c4f94af data/dumbadditions/loot_tables/blocks/magical_block.json
+88764a0719d19877bc0fc77532b211ce423588bc data/dumbadditions/loot_tables/blocks/magical_brick_slab.json
+a71d777ae40268e81e64b349f2fc3393e7f0b79b data/dumbadditions/loot_tables/blocks/magical_brick_stairs.json
+87a38140ae147cdc08c4d7072f43026790920fda data/dumbadditions/loot_tables/blocks/magical_brick_wall.json
 986c224fb313e03ba4dc784a63ed3aa8a13e86ba data/dumbadditions/loot_tables/blocks/magical_bricks.json

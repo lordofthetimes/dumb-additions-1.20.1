@@ -18,7 +18,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         for(RegistryObject<Block> block : ModBlocks.BLOCKS.getEntries()){
-        this.dropSelf(block.get());
+            if(String.valueOf(block.getId()).endsWith("slab")){
+                this.add(block.get(), itemTable ->  createSlabItemTable(block.get()));
+            }
+            else{
+                this.dropSelf(block.get());
+            }
         }
 //        add ores drop, make sure to somehow exclude them later
 //        this.add(orehere ,block -> createRedstoneOreDrops());

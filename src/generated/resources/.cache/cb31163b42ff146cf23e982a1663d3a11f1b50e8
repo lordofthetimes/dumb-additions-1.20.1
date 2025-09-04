@@ -1,3 +1,7 @@
-// 1.20.1	2025-09-02T23:27:35.347508221	Tags for minecraft:block mod id dumbadditions
-1e3360cd2770bdc331c3e4c7c54b5b8fc269f03e data/minecraft/tags/blocks/mineable/pickaxe.json
+// 1.20.1	2025-09-04T23:07:36.878020308	Tags for minecraft:block mod id dumbadditions
+6206712471d297f4dc450a27db37380983de2196 data/dumbadditions/tags/blocks/is_corrupted.json
+82af8fd3a8115f437f635bfd26533eada326c1be data/dumbadditions/tags/blocks/is_not_corruptable.json
+31c07ec6c5bbd293cecf30591ad2e3eb295cbe52 data/dumbadditions/tags/blocks/is_purified.json
+43ad84b393779581b6a11e95fa5ba6c9287784e1 data/minecraft/tags/blocks/mineable/pickaxe.json
 cba499bb92d120a130eb2cdd21131d1dfa5685e3 data/minecraft/tags/blocks/mineable/shovel.json
+e23a36ff12b2c32e83146c375a3870018f33bf9e data/minecraft/tags/blocks/walls.json
