@@ -1,7 +1,10 @@
-// 1.20.1	2025-09-04T23:07:36.878020308	Tags for minecraft:block mod id dumbadditions
+// 1.20.1	2025-09-07T04:28:33.855893941	Tags for minecraft:block mod id dumbadditions
 6206712471d297f4dc450a27db37380983de2196 data/dumbadditions/tags/blocks/is_corrupted.json
-82af8fd3a8115f437f635bfd26533eada326c1be data/dumbadditions/tags/blocks/is_not_corruptable.json
+b5ce11fe99af8e19fda80afb26be13a89781f718 data/dumbadditions/tags/blocks/is_not_corruptable.json
 31c07ec6c5bbd293cecf30591ad2e3eb295cbe52 data/dumbadditions/tags/blocks/is_purified.json
-43ad84b393779581b6a11e95fa5ba6c9287784e1 data/minecraft/tags/blocks/mineable/pickaxe.json
+e5cd50eec906a77329604751848a93304562c575 data/minecraft/tags/blocks/logs_that_burn.json
+9ebbe6a1553b14d09f6996de82baebfd77bf3845 data/minecraft/tags/blocks/mineable/pickaxe.json
 cba499bb92d120a130eb2cdd21131d1dfa5685e3 data/minecraft/tags/blocks/mineable/shovel.json
+fa82dffcefcf534360caf32db75818aa0b959234 data/minecraft/tags/blocks/needs_diamond_tool.json
+2780b34fefacf692b54c68f71f54e1bb4754e64b data/minecraft/tags/blocks/planks.json
 e23a36ff12b2c32e83146c375a3870018f33bf9e data/minecraft/tags/blocks/walls.json

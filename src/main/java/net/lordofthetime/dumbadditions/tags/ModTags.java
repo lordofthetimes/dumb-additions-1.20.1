@@ -7,6 +7,7 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 
 public class ModTags {
     public static class Blocks{
@@ -14,6 +15,7 @@ public class ModTags {
         public static final TagKey<Block> IS_CORRUPTED = tag("is_corrupted");
         public static final TagKey<Block> IS_PURIFIED = tag("is_purified");
         public static final TagKey<Block> IS_NOT_CORRUPTABLE = tag("is_not_corruptable");
+
 
         private static TagKey<Block> tag(String name){
             return BlockTags.create(ResourceLocation.tryBuild(DumbAdditions.MODID,name));

@@ -3,6 +3,7 @@
     "minecraft:bedrock",
     "minecraft:air",
     "minecraft:water",
-    "minecraft:lava"
+    "minecraft:lava",
+    "#minecraft:wither_immune"
   ]
 }

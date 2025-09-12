@@ -8,6 +8,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -33,7 +34,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 ModBlocks.MAGICAL_BRICKS.get(),
                 ModBlocks.MAGICAL_BRICK_WALL.get(),
                 ModBlocks.MAGICAL_BRICK_STAIRS.get(),
-                ModBlocks.MAGICAL_BRICK_SLAB.get()
+                ModBlocks.MAGICAL_BRICK_SLAB.get(),
+                ModBlocks.PURIFIER.get()
 
         );
 //        this.tag(BlockTags.MINEABLE_WITH_AXE).add(
@@ -47,13 +49,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         //tool tier tags
 
-//        this.tag(BlockTags.NEEDS_STONE_TOOL)add(
+//        this.tag(BlockTags.NEEDS_STONE_TOOL).add(
 //        );
-//        this.tag(BlockTags.NEEDS_STONE_TOOL)add(
+//        this.tag(BlockTags.NEEDS_IRON_TOOL).add(
 //        );
-//        this.tag(BlockTags.NEEDS_STONE_TOOL)add(
-//        );
-//        this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)add(
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL).add(
+                ModBlocks.PURIFIER.get()
+        );
+//        this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL).add(
 //        );
 
         //Fence, fence gates, walls tags
@@ -65,7 +68,20 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 //        );
 //        this.tag(BlockTags.FENCE_GATES).add(
 //        );
-
+        this.tag(BlockTags.LOGS_THAT_BURN).add(
+                ModBlocks.CORRUPTED_LOG.get(),
+                ModBlocks.MAGICAL_LOG.get(),
+                ModBlocks.STRIPPED_CORRUPTED_LOG.get(),
+                ModBlocks.STRIPPED_MAGICAL_LOG.get(),
+                ModBlocks.CORRUPTED_WOOD.get(),
+                ModBlocks.MAGICAL_WOOD.get(),
+                ModBlocks.STRIPPED_CORRUPTED_WOOD.get(),
+                ModBlocks.STRIPPED_MAGICAL_WOOD.get()
+        );
+        this.tag(BlockTags.PLANKS).add(
+                ModBlocks.CORRUPTED_PLANKS.get(),
+                ModBlocks.MAGICAL_PLANKS.get()
+        );
 
         // Mod Tags
 
@@ -94,6 +110,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 Blocks.AIR,
                 Blocks.WATER,
                 Blocks.LAVA
+        ).addTag(
+                BlockTags.WITHER_IMMUNE
         );
 
 

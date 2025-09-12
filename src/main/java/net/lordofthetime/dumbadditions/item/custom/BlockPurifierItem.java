@@ -11,6 +11,9 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 
+import static net.lordofthetime.dumbadditions.util.CorruptorPurifierUtils.getTargets;
+import static net.lordofthetime.dumbadditions.util.CorruptorPurifierUtils.pickBlock;
+
 public class BlockPurifierItem extends Item {
 
     public BlockPurifierItem(Properties properties){
@@ -20,25 +23,18 @@ public class BlockPurifierItem extends Item {
     @Override
     public InteractionResult useOn(UseOnContext p) {
         if(!p.getLevel().isClientSide( )){
-            int distance = 2;
-            int radius = distance*2+1;
-            BlockPos position = p.getClickedPos().above(distance).east(distance).north(distance);
-            BlockState state = p.getLevel().getBlockState(position);
+            int distance = 4;
+            BlockPos topPos = p.getClickedPos().above(distance).east(distance).north(distance);
+            BlockPos bottomPos = p.getClickedPos().below(distance).west(distance).south(distance);
 
-            for(int i = 0; i<radius; i++){
-                for(int a = 0; a<radius; a++){
-                    Level world = p.getLevel();
-                    for(int b = 0; b<radius; b++) {
-                        BlockState block = world.getBlockState(position);
-                        if(!block.is(Blocks.AIR) && !block.liquid() && !block.is(ModBlocks.CORRUPTOR.get())&& !block.is(Blocks.BEDROCK) && block.is(ModBlocks.CORRUPTED_BLOCK.get())){
-                            world.setBlock(position, ModBlocks.MAGICAL_BLOCK.get().defaultBlockState(),3);
-                        }
-                        position = position.south();
-                    }
-                    position = position.west().north(radius);
-                }
-                position = position.below().east(radius);
-            }
+            getTargets(topPos,bottomPos,p.getLevel(),1)
+                    .forEachOrdered(pos -> {
+
+                            BlockState block = p.getLevel().getBlockState(pos);
+                        System.out.println("Currently changing block at " + pos + " from " + block+" to " + pickBlock(block,1));
+                            p.getLevel().setBlock(pos, pickBlock(block,1), 3 | 8);
+                            }
+                    );
             p.getItemInHand().hurtAndBreak(1 ,p.getPlayer(),
                     player -> player.broadcastBreakEvent(player.getUsedItemHand()));
             p.getPlayer().getCooldowns().addCooldown(this, 5);

@@ -13,7 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> MAGICAL_PARTICLE = ITEMS.register("magical_particle", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CORRUPTED_PARTICLE = ITEMS.register("corrupted_particle", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> BLOCK_PURIFIER = ITEMS.register("block_purifier", () -> new BlockPurifierItem(new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> BLOCK_PURIFIER = ITEMS.register("block_purifier", () -> new BlockPurifierItem(new Item.Properties().durability(64)));
+    public static final RegistryObject<Item> MAGICAL_ITEM = ITEMS.register("magical_item", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

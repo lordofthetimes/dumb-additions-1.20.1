@@ -17,8 +17,8 @@ import net.minecraft.world.phys.BlockHitResult;
 
 
 
-public class CorruptorBlock extends Block {
-    public CorruptorBlock(Properties p) {
+public class PurifierBlock extends Block {
+    public PurifierBlock(Properties p) {
         super(p);
     }
 
@@ -29,14 +29,14 @@ public class CorruptorBlock extends Block {
         BlockPos topPos = pPos.above(distance).east(distance).north(distance);
         BlockPos bottomPos = pPos.below(distance).west(distance).south(distance);
 
-        getTargets(topPos,bottomPos,pLevel,2)
+        getTargets(topPos,bottomPos,pLevel,1)
                 .forEachOrdered(pos -> {
-                    if (!pLevel.isClientSide) {
-                        BlockState block = pLevel.getBlockState(pos);
-                        pLevel.setBlock(pos, pickBlock(block, 2), 3 | 8);
-                    }
-                }
-        );
+                            if (!pLevel.isClientSide) {
+                                BlockState block = pLevel.getBlockState(pos);
+                                pLevel.setBlock(pos, pickBlock(block, 1), 3 | 8);
+                            }
+                        }
+                );
         return InteractionResult.SUCCESS;
     }
 

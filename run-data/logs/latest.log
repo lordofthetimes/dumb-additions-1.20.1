@@ -1,31 +1,31 @@
-[04Sep2025 23:07:33.569] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, /home/adam/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.4.6, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, dumbadditions, --all, --output, /home/adam/Repositories/Java - Minecraft/1.20.1/dumb-additions-1.20.1/src/generated/resources, --existing, /home/adam/Repositories/Java - Minecraft/1.20.1/dumb-additions-1.20.1/src/main/resources]
-[04Sep2025 23:07:33.571] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Eclipse Adoptium; OS Linux arch amd64 version 6.8.0-78-generic
-[04Sep2025 23:07:33.622] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[04Sep2025 23:07:33.644] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/adam/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23116!/ Service=ModLauncher Env=CLIENT
-[04Sep2025 23:07:33.780] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/adam/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.4.6/9e86bf67e222253576e982856d9958695725adb5/javafmllanguage-1.20.1-47.4.6.jar is missing mods.toml file
-[04Sep2025 23:07:33.781] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/adam/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.4.6/56100545804adc991cc48ab68b86ba46c5873246/lowcodelanguage-1.20.1-47.4.6.jar is missing mods.toml file
-[04Sep2025 23:07:33.781] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/adam/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.4.6/fd228d7d879a9da774eda022ea3092cedb5178f1/mclanguage-1.20.1-47.4.6.jar is missing mods.toml file
-[04Sep2025 23:07:33.782] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/adam/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.4.6/cefc55ada370ce2f23f92834530eb967c0de1fdd/fmlcore-1.20.1-47.4.6.jar is missing mods.toml file
-[04Sep2025 23:07:33.812] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[04Sep2025 23:07:34.403] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, /home/adam/.gradle/caches/forge_gradle/assets, --assetIndex, 5, --mod, dumbadditions, --all, --output, /home/adam/Repositories/Java - Minecraft/1.20.1/dumb-additions-1.20.1/src/generated/resources, --existing, /home/adam/Repositories/Java - Minecraft/1.20.1/dumb-additions-1.20.1/src/main/resources]
-[04Sep2025 23:07:34.534] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [dumbadditions]
-[04Sep2025 23:07:36.495] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.6, for MC 1.20.1 with MCP 20230612.114412
-[04Sep2025 23:07:36.496] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.6 Initialized
-[04Sep2025 23:07:36.574] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[04Sep2025 23:07:36.577] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 1.660 ms
-[04Sep2025 23:07:36.701] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/adam/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23181!/assets/.mcassetsroot' uses unexpected schema
-[04Sep2025 23:07:36.701] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/adam/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23181!/data/.mcassetsroot' uses unexpected schema
-[04Sep2025 23:07:36.770] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[04Sep2025 23:07:36.788] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 17 ms
-[04Sep2025 23:07:36.789] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[04Sep2025 23:07:36.806] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 17 ms
-[04Sep2025 23:07:36.806] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: dumbadditions
-[04Sep2025 23:07:36.869] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: dumbadditions finished after 62 ms
-[04Sep2025 23:07:36.869] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: dumbadditions
-[04Sep2025 23:07:36.870] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: dumbadditions finished after 1 ms
-[04Sep2025 23:07:36.870] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id dumbadditions
-[04Sep2025 23:07:36.876] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id dumbadditions finished after 5 ms
-[04Sep2025 23:07:36.876] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id dumbadditions
-[04Sep2025 23:07:36.877] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id dumbadditions finished after 0 ms
-[04Sep2025 23:07:36.877] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 106 ms
-[04Sep2025 23:07:36.879] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 71, old count: 68, new count: 72, removed stale: 0, written: 4
+[12Sep2025 18:16:39.366] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, /home/adam/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.4.6, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, dumbadditions, --all, --output, /home/adam/Repositories/Java - Minecraft/1.20.1/dumb-additions-1.20.1/src/generated/resources, --existing, /home/adam/Repositories/Java - Minecraft/1.20.1/dumb-additions-1.20.1/src/main/resources]
+[12Sep2025 18:16:39.371] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Eclipse Adoptium; OS Linux arch amd64 version 6.8.0-79-generic
+[12Sep2025 18:16:39.438] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[12Sep2025 18:16:39.469] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/adam/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23116!/ Service=ModLauncher Env=CLIENT
+[12Sep2025 18:16:39.647] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/adam/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.4.6/9e86bf67e222253576e982856d9958695725adb5/javafmllanguage-1.20.1-47.4.6.jar is missing mods.toml file
+[12Sep2025 18:16:39.648] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/adam/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.4.6/56100545804adc991cc48ab68b86ba46c5873246/lowcodelanguage-1.20.1-47.4.6.jar is missing mods.toml file
+[12Sep2025 18:16:39.648] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/adam/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.4.6/fd228d7d879a9da774eda022ea3092cedb5178f1/mclanguage-1.20.1-47.4.6.jar is missing mods.toml file
+[12Sep2025 18:16:39.649] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/adam/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.4.6/cefc55ada370ce2f23f92834530eb967c0de1fdd/fmlcore-1.20.1-47.4.6.jar is missing mods.toml file
+[12Sep2025 18:16:39.694] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[12Sep2025 18:16:40.626] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, /home/adam/.gradle/caches/forge_gradle/assets, --assetIndex, 5, --mod, dumbadditions, --all, --output, /home/adam/Repositories/Java - Minecraft/1.20.1/dumb-additions-1.20.1/src/generated/resources, --existing, /home/adam/Repositories/Java - Minecraft/1.20.1/dumb-additions-1.20.1/src/main/resources]
+[12Sep2025 18:16:40.764] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [dumbadditions]
+[12Sep2025 18:16:43.198] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.6, for MC 1.20.1 with MCP 20230612.114412
+[12Sep2025 18:16:43.198] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.6 Initialized
+[12Sep2025 18:16:43.330] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[12Sep2025 18:16:43.333] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 1.907 ms
+[12Sep2025 18:16:43.502] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/adam/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23181!/assets/.mcassetsroot' uses unexpected schema
+[12Sep2025 18:16:43.502] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/adam/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23181!/data/.mcassetsroot' uses unexpected schema
+[12Sep2025 18:16:43.575] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[12Sep2025 18:16:43.587] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 12 ms
+[12Sep2025 18:16:43.587] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[12Sep2025 18:16:43.615] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 27 ms
+[12Sep2025 18:16:43.615] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: dumbadditions
+[12Sep2025 18:16:43.765] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: dumbadditions finished after 149 ms
+[12Sep2025 18:16:43.766] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: dumbadditions
+[12Sep2025 18:16:43.768] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: dumbadditions finished after 2 ms
+[12Sep2025 18:16:43.768] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id dumbadditions
+[12Sep2025 18:16:43.782] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id dumbadditions finished after 13 ms
+[12Sep2025 18:16:43.782] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id dumbadditions
+[12Sep2025 18:16:43.784] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id dumbadditions finished after 1 ms
+[12Sep2025 18:16:43.784] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 209 ms
+[12Sep2025 18:16:43.788] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 159, old count: 158, new count: 160, removed stale: 0, written: 1

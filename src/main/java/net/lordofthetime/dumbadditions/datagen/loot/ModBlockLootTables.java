@@ -21,6 +21,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
             if(String.valueOf(block.getId()).endsWith("slab")){
                 this.add(block.get(), itemTable ->  createSlabItemTable(block.get()));
             }
+            else if(String.valueOf(block.getId()).endsWith("leaves")){
+                // change to sapling, block.ge
+                // String.valueOf(block.getId()).split("_")[0] + "_sapling"
+                this.add(block.get(), drops -> createLeavesDrops(drops,block.get(),NORMAL_LEAVES_SAPLING_CHANCES));
+            }
             else{
                 this.dropSelf(block.get());
             }

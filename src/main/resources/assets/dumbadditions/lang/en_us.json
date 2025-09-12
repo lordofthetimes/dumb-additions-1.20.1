@@ -1,8 +1,12 @@
 {
   "item.dumbadditions.magical_particle": "Magical Particle",
+  "item.dumbadditions.magical_item": "Magical Item",
   "item.dumbadditions.corrupted_particle": "Corrupted Particle",
 
   "item.dumbadditions.block_purifier": "Block Purifier",
+
+  "block.dumbadditions.corruptor": "Corruptor",
+  "block.dumbadditions.purifier": "Purifier",
 
   "block.dumbadditions.corrupted_bricks": "Corrupted Bricks",
   "block.dumbadditions.corrupted_brick_stairs": "Corrupted Brick Stairs",
@@ -11,9 +15,31 @@
 
 
   "block.dumbadditions.magical_bricks": "Magical Bricks",
+  "block.dumbadditions.magical_brick_stairs": "Magical Brick Stairs",
+  "block.dumbadditions.magical_brick_wall": "Magical Brick Wall",
+  "block.dumbadditions.magical_brick_slab": "Magical Brick Slab",
+
   "block.dumbadditions.corrupted_block": "Corrupted Block",
   "block.dumbadditions.magical_block": "Magical Block",
-  "block.dumbadditions.corruptor": "Corruptor",
+
+  "block.dumbadditions.corrupted_log" : "Corrupted Log",
+  "block.dumbadditions.corrupted_wood" : "Corrupted Wood",
+  "block.dumbadditions.corrupted_stripped_log" : "Corrupted Stripped Log",
+  "block.dumbadditions.corrupted_stripped_wood" : "Corrupted Stripped Wood",
+  "block.dumbadditions.corrupted_leaves" : "Corrupted Leaves",
+  "block.dumbadditions.corrupted_planks" : "Corrupted Planks",
+
+
+  "block.dumbadditions.magical_log" : "Magical Log",
+  "block.dumbadditions.magical_wood" : "Magical Wood",
+  "block.dumbadditions.magical_stripped_log" : "Magical Stripped Log",
+  "block.dumbadditions.magical_stripped_wood" : "Magical Stripped Wood",
+  "block.dumbadditions.magical_leaves" : "Magical Leaves",
+  "block.dumbadditions.magical_planks" : "Magical Planks",
+
+
+
+
 
   "creativetab.dumbadditionstab": "Dumb Additions"
 }
