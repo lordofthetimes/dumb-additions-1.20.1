@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "dumbadditions:block/magical_planks",
+    "side": "dumbadditions:block/magical_planks",
+    "top": "dumbadditions:block/magical_planks"
+  }
+}

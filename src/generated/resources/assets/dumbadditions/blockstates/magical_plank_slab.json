@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dumbadditions:block/magical_plank_slab"
+    },
+    "type=double": {
+      "model": "dumbadditions:block/magical_planks"
+    },
+    "type=top": {
+      "model": "dumbadditions:block/magical_plank_slab_top"
+    }
+  }
+}

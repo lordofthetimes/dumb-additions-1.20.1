@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dumbadditions:block/stripped_magical_wood",
+    "side": "dumbadditions:block/stripped_magical_wood"
+  }
+}

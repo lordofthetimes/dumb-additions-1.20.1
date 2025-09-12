@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dumbadditions:block/corrupted_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dumbadditions:block/corrupted_wood"
+    },
+    "axis=z": {
+      "model": "dumbadditions:block/corrupted_wood_horizontal",
+      "x": 90
+    }
+  }
+}

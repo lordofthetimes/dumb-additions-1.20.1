@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dumbadditions:block/corrupted_planks",
+    "side": "dumbadditions:block/corrupted_planks",
+    "top": "dumbadditions:block/corrupted_planks"
+  }
+}
